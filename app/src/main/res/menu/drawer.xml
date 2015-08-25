@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/drawer_home"
+            android:checked="true"
+            android:title="@string/home"/>
+
+        <item
+            android:id="@+id/drawer_breakfast"
+            android:title="@string/breakfast"/>
+
+        <item
+            android:id="@+id/drawer_lunch"
+            android:title="@string/lunch"/>
+
+        <item
+            android:id="@+id/drawer_snacks"
+            android:title="@string/snacks"/>
+
+    </group>
+</menu>
