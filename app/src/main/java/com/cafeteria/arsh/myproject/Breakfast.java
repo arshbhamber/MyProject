@@ -42,7 +42,6 @@ public class Breakfast extends MyAppCompatActivity {
         collapsingToolbarLayout.setExpandedTitleColor(getResources().getColor(android.R.color.transparent));
         collapsingToolbarLayout.setCollapsedTitleTextColor(getResources().getColor(android.R.color.holo_red_dark));
         mRecyclerView.setAdapter(mAdapter);
-        setupWindowAnimations();
         ivHeader.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -65,7 +64,7 @@ public class Breakfast extends MyAppCompatActivity {
 
     private void setupWindowAnimations() {
         Explode explode = new Explode();
-        explode.setDuration(2000);
+        explode.setDuration(5000);
         getWindow().setExitTransition(explode);
     }
 }
