@@ -18,7 +18,7 @@ import com.cafeteria.arsh.myproject.adapters.RecyclerViewAdapter;
 /**
  * Created by fake on 8/22/2015.
  */
-public class Breakfast extends MyAppCompatActivity {
+public class ActivityItemList extends MyAppCompatActivity {
 
 
     Toolbar mToolBar;

@@ -12,10 +12,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.cafeteria.arsh.myproject.Breakfast;
 import com.cafeteria.arsh.myproject.DetailsPage;
-import com.cafeteria.arsh.myproject.HomePage;
-import com.cafeteria.arsh.myproject.MainActivity;
 import com.cafeteria.arsh.myproject.R;
 
 /**

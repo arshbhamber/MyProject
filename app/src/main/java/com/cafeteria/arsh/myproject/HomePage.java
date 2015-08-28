@@ -3,18 +3,14 @@ package com.cafeteria.arsh.myproject;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
-import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.transition.Explode;
-import android.transition.TransitionInflater;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.Switch;
 
 import com.cafeteria.arsh.myproject.adapters.HomePagerAdapter;
 
@@ -63,15 +59,15 @@ public class HomePage extends MyAppCompatActivity {
                 switch (homeViewPager.getCurrentItem()){
 
                     case 0:
-                        i = new Intent(HomePage.this,Breakfast.class);
+                        i = new Intent(HomePage.this,ActivityItemList.class);
                         startActivity(i);
                         break;
                     case 1:
-                        i = new Intent(HomePage.this,Breakfast.class);
+                        i = new Intent(HomePage.this,ActivityItemList.class);
                         startActivity(i);
                         break;
                     case 2:
-                        i = new Intent(HomePage.this,Breakfast.class);
+                        i = new Intent(HomePage.this,ActivityItemList.class);
                         startActivity(i);
                         break;
 
@@ -93,15 +89,15 @@ public class HomePage extends MyAppCompatActivity {
                 switch (position){
 
                     case 0:
-                        frontImage.setImageResource(R.drawable.headerimage);
-                        backImage.setImageResource(R.drawable.breakfast);
+                        frontImage.setImageResource(R.drawable.breakfastfinal);
+                        backImage.setImageResource(R.drawable.lunch);
                         break;
                     case 1:
-                        frontImage.setImageResource(R.drawable.breakfast);
-                        backImage.setImageResource(R.drawable.breakfast1);
+                        frontImage.setImageResource(R.drawable.lunch);
+                        backImage.setImageResource(R.drawable.image1);
                         break;
                     case 2:
-                        frontImage.setImageResource(R.drawable.breakfast1);
+                        frontImage.setImageResource(R.drawable.image1);
                         backImage.setImageResource(R.drawable.breakfast_3);
                         break;
 
